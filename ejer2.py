@@ -7,12 +7,17 @@ plenamente de las ventajas del design pattern MVC, los atributos, en particular 
 '''
 class MVC:
     def __init__(self, modelo, vista, controlador):
+        self.linea1 = linea1
+        self.linea2 = linea2
         self.modelo = modelo
         self.vista = vista
         self.controlador = controlador
+        
     def ejecutar(self):
         self.controlador.ejecutar()
 
 linea1 = "Hola soy Esther"
 linea2 = "Soy una programadora"
 insertar = MVC(linea1, linea2, controlador)
+insertar.ejecutar()
+
