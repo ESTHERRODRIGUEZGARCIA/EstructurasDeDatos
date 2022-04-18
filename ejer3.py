@@ -30,6 +30,13 @@ class Producto(Naturaleza):
         else:
             return self.precio_neto
 
+class FactoryFactura:
+    def __init__(self, producto):
+        self.producto = producto
+
+    def facturar(self):
+        return self.producto(self.iva)
+
 
 Naturaleza = Naturaleza()
 
