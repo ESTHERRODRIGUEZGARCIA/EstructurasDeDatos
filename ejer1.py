@@ -1,4 +1,4 @@
-class Bloque: 
+class Bloque:
     # Un bloque es un conjunto de instrucciones ejecutadas 
     # unas detrás de otras. 
     def __init__(self): 
@@ -26,19 +26,19 @@ class MientrasQue:
     # para decidir si el bucle continúa o no, 
     # 'bloque' es la secuencia de instrucciones ejecutadas en bucle. 
     def __init__(self, condicion, bloque): 
-        self.condicion = condicion 
-        self.bloque = bloque 
- 
-class Mostrar: 
-    # Una instrucción para mostrar un mensaje 
-    # en salida estándar. 
-    def __init__(self, mensaje): 
-        self.mensaje = mensaje 
+        self.condicion = condicion
+        self.bloque = bloque
+
+class Mostrar:
+# Una instrucción para mostrar un mensaje
+    # en salida estándar.
+    def __init__(self, mensaje):
+        self.mensaje = mensaje
 
 
-mostrar_ok = Mostrar('"OK"') 
-mostrar_ko = Mostrar('"KO"') 
-alternativa = Si("2 + 2 == 4", mostrar_ok, mostrar_ko) 
-bloque_alternativa = Bloque() 
-bloque_alternativa.agregarInstruccion(alternativa) 
-bucle = MientrasQue(True, bloque_alternativa) 
+mostrar_ok = Mostrar('"OK"')
+mostrar_ko = Mostrar('"KO"')
+alternativa = Si("2 + 2 == 4", mostrar_ok, mostrar_ko)
+bloque_alternativa = Bloque()
+bloque_alternativa.agregarInstruccion(alternativa)
+bucle = MientrasQue(True, bloque_alternativa)
