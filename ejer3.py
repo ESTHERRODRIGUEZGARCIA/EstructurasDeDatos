@@ -35,7 +35,8 @@ class FactoryFactura:
         self.producto = producto
 
     def facturar(self):
-        return producto(self.iva)
+        return Producto(self.iva).facturar()
+        
 
 
 Naturaleza = Naturaleza()
