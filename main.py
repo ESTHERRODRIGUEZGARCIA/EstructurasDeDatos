@@ -15,7 +15,8 @@ def elegir():
         from CLASE import ejer3
     else:
         print("Seleccione una opción correcta. ")
-        elegir()
+
+elegir()
 
 if __name__ == "__main__":
     elegir()
