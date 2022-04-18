@@ -2,10 +2,11 @@ from CLASE import *
 
 
 def elegir():
-    variable = input("¿Què ejercicio quiere realizar?: 1, 2 o 3: ")
+    variable = input("¿Què ejercicio quiere realizar?: 1, 2 o 3: \n")
     if variable == "1":
         print("Ejercicio 1: \n")
         from CLASE import ejer1
+
     elif variable == "2":
         print("Ejercicio 2: \n")
         from CLASE import ejer2
