@@ -12,7 +12,7 @@ print(precio_neto)
 # 120 '''
 
 class Naturaleza:
-    def __init__(self, naturaleza, iva):
+    def __init__(self, naturaleza):
         self.naturaleza = naturaleza
         self.ALIMENTARIA = 0.055
         self.SERVICIO = 0.2
@@ -38,16 +38,6 @@ class FactoryFactura:
 
     def facturar(self):
         return Producto(self.iva).facturar()
-
-
-
-class Factura:
-    def __init__(self, producto):
-        self.producto = producto
-
-    def facturar(self):
-        return Producto(self.iva).facturar()
-
 
 
 
