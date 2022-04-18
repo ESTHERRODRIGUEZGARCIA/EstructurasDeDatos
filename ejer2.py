@@ -10,4 +10,9 @@ class MVC:
         self.modelo = modelo
         self.vista = vista
         self.controlador = controlador
-        
+    def ejecutar(self):
+        self.controlador.ejecutar()
+
+linea1 = "Hola soy Esther"
+linea2 = "Soy una programadora"
+insertar = MVC(linea1, linea2, controlador)
