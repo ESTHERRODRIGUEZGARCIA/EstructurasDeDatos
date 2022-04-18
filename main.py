@@ -1,4 +1,4 @@
-
+from CLASE import *
 
 
 def elegir():
