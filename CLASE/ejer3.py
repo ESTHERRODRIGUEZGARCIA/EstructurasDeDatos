@@ -41,5 +41,6 @@ class Producto(Naturaleza):
             return precio_neto
         else:
             print("Seleccione una opción correcta. ")
-            
+
     comprafinal()
+Producto()
