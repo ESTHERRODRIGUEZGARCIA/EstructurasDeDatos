@@ -1,1 +1,1 @@
-# filosofía MVC
+# filosofía MVC: Model, View, Controller
