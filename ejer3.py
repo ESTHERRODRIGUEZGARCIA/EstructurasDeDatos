@@ -40,6 +40,8 @@ class FactoryFactura:
         return Producto(self.iva).facturar()
 
 
+Naturaleza = Naturaleza('ALIMENTARIA', 0.055)
+Naturaleza = Naturaleza('SERVICIO', 0.2)
 
 
 producto = Producto(Naturaleza.ALIMENTARIA) # IVA 5,5%
