@@ -1,22 +1,20 @@
-import ejer1
-import ejer2
-import ejer3
+import CLASE.ejer1 as ejer1
+import CLASE.ejer2 as ejer2
+import CLASE.ejer3 as ejer3
 
 
 def elegir():
     variable = input("¿Què ejercicio quiere realizar?: 1, 2 o 3: ")
     if variable == "1":
+        print("Ejercicio 1: \n")
         ejer1()
     elif variable == "2":
+        print("Ejercicio 2: \n")
         ejer2()
     elif variable == "3":
+        print("Ejercicio 3: \n")
         ejer3()
     else:
         print("Seleccione una opción correcta. ")
         elegir()
-print("Bienvenido al programa de ejercicios de programación.")
-print("Ejercicio 1: \n")
 
-print("Ejercicio 2: \n")
-
-print("Ejercicio 3: \n")
