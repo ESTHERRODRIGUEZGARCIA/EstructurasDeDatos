@@ -1,3 +1,6 @@
+import ejer1
+import ejer2
+import ejer3
 
 
 def elegir():
@@ -9,3 +12,5 @@ def elegir():
     elif variable == "3":
         ejer3()
     else:
+        print("Seleccione una opción correcta.")
+        elegir()
