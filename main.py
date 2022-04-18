@@ -14,3 +14,9 @@ def elegir():
     else:
         print("Seleccione una opción correcta. ")
         elegir()
+print("Bienvenido al programa de ejercicios de programación.")
+print("Ejercicio 1: \n")
+
+print("Ejercicio 2: \n")
+
+print("Ejercicio 3: \n")
