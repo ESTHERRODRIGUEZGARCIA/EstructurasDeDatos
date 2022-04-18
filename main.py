@@ -18,3 +18,6 @@ def elegir():
         print("Seleccione una opción correcta. ")
         elegir()
 
+if __name__ == "__main__":
+    elegir()
+    
