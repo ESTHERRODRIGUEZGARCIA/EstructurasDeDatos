@@ -3,7 +3,7 @@ Ejercicios de Estructuras de Datos
 
 Enlace del repositorio: https://github.com/ESTHERRODRIGUEZGARCIA/EstructurasDeDatos.git
 
- * *inciso: no funciona pero no sé arreglarlo...
+  *inciso: no funciona pero no sé arreglarlo...
 
 # EJERCICIO 1
 
