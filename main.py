@@ -12,5 +12,5 @@ def elegir():
     elif variable == "3":
         ejer3()
     else:
-        print("Seleccione una opción correcta.")
+        print("Seleccione una opción correcta")
         elegir()
