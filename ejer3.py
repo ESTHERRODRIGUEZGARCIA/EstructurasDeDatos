@@ -21,5 +21,13 @@ class Naturaleza:
     def __str__(self):
         return self.naturaleza
     
+class Producto:
+    def facturar(self):
+        if self.naturaleza == Naturaleza.ALIMENTARIA:
+            return self.precio_neto * 0.055
+        elif self.naturaleza == Naturaleza.SERVICIO:
+            return self.precio_neto * 0.2
+        else:
+            return self.precio_neto
 
 
