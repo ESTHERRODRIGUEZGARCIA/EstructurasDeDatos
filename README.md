@@ -2,6 +2,8 @@
 Ejercicios de Estructuras de Datos
 
 # EJERCICIO 1
+
+````
 class Bloque:
     # Un bloque es un conjunto de instrucciones ejecutadas 
     # unas detrás de otras. 
@@ -46,3 +48,5 @@ alternativa = Si("2 + 2 == 4", mostrar_ok, mostrar_ko)
 bloque_alternativa = Bloque()
 bloque_alternativa.agregarInstruction(alternativa)
 bucle = MientrasQue(True, bloque_alternativa)
+
+````
