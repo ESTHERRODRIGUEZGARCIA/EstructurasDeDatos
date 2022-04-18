@@ -22,10 +22,11 @@ class MVC:
         def mayusculas(self):
             
             insertar = open("ejercicio2.txt", "w")
-            insertar.write(linea1)
-            insertar.write(linea2)
+            insertar.write(linea1.upper)
+            insertar.write(linea2.upper)
             insertar.close()
-            return linea1.upper(), linea2.upper()
+            print("Se ha creado el archivo ejercicio2.txt")
+            os.remove("ejercicio2.txt")
         return mayusculas(self)
 
 
