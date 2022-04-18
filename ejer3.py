@@ -36,8 +36,8 @@ class FactoryFactura:
     def __init__(self, producto):
         self.producto = producto
 
-    def facturar(self):
-        return Producto(self.iva).facturar()
+    def vuelta(self):
+        return self.producto.facturar()
 
 
 
