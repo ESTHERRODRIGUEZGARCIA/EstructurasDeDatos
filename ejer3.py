@@ -40,8 +40,16 @@ class FactoryFactura:
         return Producto(self.iva).facturar()
 
 
-Naturaleza = Naturaleza('ALIMENTARIA', 0.055)
-Naturaleza = Naturaleza('SERVICIO', 0.2)
+
+class Factura:
+    def __init__(self, producto):
+        self.producto = producto
+
+    def facturar(self):
+        return Producto(self.iva).facturar()
+
+
+
 
 
 producto = Producto(Naturaleza.ALIMENTARIA) # IVA 5,5%
