@@ -20,7 +20,6 @@ class MVC:
     def leer_lineas(self):
         #quiero que el programa em devuekva las lineas en mayusculas
         def mayusculas(self):
-            
             insertar = open("ejercicio2.txt", "w")
             insertar.write(linea1.upper)
             insertar.write(linea2.upper)
