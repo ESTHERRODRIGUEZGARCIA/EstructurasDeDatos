@@ -12,12 +12,19 @@ class MVC:
         self.modelo = modelo
         self.vista = vista
         self.controlador = controlador
+    
+    def leer_lineas(self):
+        #quiero que el programa em devuekva las lineas en mayusculas
+        def mayusculas(self):
+            linea1 = "Hola soy Esther"
+            linea2 = "Soy una programadora"
+            return linea1.upper(), linea2.upper()
+        return mayusculas(self)
         
     def ejecutar(self):
         self.controlador.ejecutar()
 
-linea1 = "Hola soy Esther"
-linea2 = "Soy una programadora"
+
 insertar = MVC(linea1, linea2, controlador)
 insertar.ejecutar()
 
