@@ -24,9 +24,9 @@ class Naturaleza:
 class Producto(Naturaleza):
     def facturar(self):
         if self.naturaleza == Naturaleza.ALIMENTARIA:
-            return self.precio_neto * 0.055
+            return self.precio_neto * 1.055
         elif self.naturaleza == Naturaleza.SERVICIO:
-            return self.precio_neto * 0.2
+            return self.precio_neto * 1.2
         else:
             return self.precio_neto
 
