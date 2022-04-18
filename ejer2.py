@@ -18,13 +18,16 @@ class MVC:
         def mayusculas(self):
             linea1 = "Hola soy Esther"
             linea2 = "Soy una programadora"
+            insertar = open("ejercicio2.txt", "w")
+            insertar.write(linea1)
+            insertar.write(linea2)
+            insertar.close()
             return linea1.upper(), linea2.upper()
         return mayusculas(self)
-        
+
     def ejecutar(self):
         self.controlador.ejecutar()
 
 
-insertar = MVC(linea1, linea2, controlador)
-insertar.ejecutar()
+
 
