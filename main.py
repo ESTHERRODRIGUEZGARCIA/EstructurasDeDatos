@@ -7,7 +7,7 @@ def elegir():
     variable = input("¿Què ejercicio quiere realizar?: 1, 2 o 3: ")
     if variable == "1":
         print("Ejercicio 1: \n")
-        ejer1.ejercicio1()
+        ejer1()
     elif variable == "2":
         print("Ejercicio 2: \n")
 
