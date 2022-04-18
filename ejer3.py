@@ -41,7 +41,6 @@ class FactoryFactura:
 
 
 
-Naturaleza = Naturaleza()
 
 producto = Producto(Naturaleza.ALIMENTARIA) # IVA 5,5%
 precio_neto = FactoryFactura.crear(producto).facturar()
