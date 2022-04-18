@@ -12,6 +12,8 @@ print(precio_neto)
 # 120 '''
 
 class Naturaleza:
-    ALIMENTARIA = 1
-    SERVICIO = 2
-    
+    def __init__(self, naturaleza):
+        self.naturaleza = naturaleza
+        self.ALIMENTARIA = 5.5
+        self.SERVICIO = 20
+
