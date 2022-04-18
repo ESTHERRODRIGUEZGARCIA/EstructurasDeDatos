@@ -16,12 +16,14 @@ class Naturaleza:
         self.naturaleza = naturaleza
         self.ALIMENTARIA = 0.055
         self.SERVICIO = 0.2
-        self.iva = iva
 
     def __str__(self):
         return self.naturaleza
 
 class Producto(Naturaleza):
+    def __init__(self, iva):
+        self.iva = iva
+    
     def facturar(self):
         if self.naturaleza == Naturaleza.ALIMENTARIA:
             return self.precio_neto * 1.055
@@ -36,7 +38,7 @@ class FactoryFactura:
 
     def facturar(self):
         return Producto(self.iva).facturar()
-        
+
 
 
 Naturaleza = Naturaleza()
